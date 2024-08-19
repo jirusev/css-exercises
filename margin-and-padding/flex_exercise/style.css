@@ -1,0 +1,40 @@
+.frame {
+    border: 5px solid rgb(14, 116, 14);
+    background-color: rgb(152, 196, 152);
+    width: 512px;
+    padding: 12px;
+    margin: 48px auto;
+}
+
+.item {
+    border: 5px solid blue;
+    background-color: rgb(184, 184, 216);
+    flex: 1;
+    display: flex;
+    height: 150px;
+    align-items: stretch;
+    margin: 4px;
+}
+
+.item_inner_1 {
+    border: 5px solid peru;
+    background-color: rgb(231, 182, 126);
+    flex: 1;
+    display: flex;
+    margin: 10px;
+}
+.item_inner_2 {
+    border: 5px solid rgb(231, 19, 19);
+    background-color: rgb(238, 127, 127);
+    flex: 1;
+    display: flex;
+    margin: 10px;
+}
+
+.item_2{
+    border: 5px solid rgb(231, 19, 19);
+    background-color: rgb(238, 127, 127);
+    flex: 1;
+    height: 50px;
+    margin: 10px;
+}
