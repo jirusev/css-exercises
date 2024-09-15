@@ -7,19 +7,22 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
+  background: #ee3737;
   color: #333;
   /* I'll give you this one for free */
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .modal {
-  background: white;
+  background: rgb(29, 247, 76);
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +36,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .close-button {
@@ -66,28 +79,6 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
-
-/* SOLUTION: */
-
-.modal {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-}
-
-.icon {
-  /* this keeps the icon from getting smashed by the text */
-  flex-shrink: 0;
-}
-/* header container should be wrapped around the button element as well in order for flex style to work */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
 }
 
 .text {
